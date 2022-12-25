@@ -1,0 +1,20 @@
+{
+    "solutions":[
+        {"word" : "relax", "id": 1},
+        {"word" : "spade", "id": 2},
+        {"word" : "cores", "id": 3},
+        {"word" : "blame", "id": 4},
+        {"word" : "coins", "id": 5},
+        {"word" : "bling", "id": 6},
+        {"word" : "dance", "id": 7},
+        {"word" : "shake", "id": 8},
+        {"word" : "train", "id": 9},
+        {"word" : "pools", "id": 10},
+        {"word" : "phone", "id": 11},
+        {"word" : "money", "id": 12},
+        {"word" : "april", "id": 13},
+        {"word" : "times", "id": 14},
+        {"word" : "banks", "id": 15}
+
+    ]
+}
