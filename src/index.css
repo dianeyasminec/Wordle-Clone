@@ -3,6 +3,7 @@ body {
   font-size: 1em;
   font-family: verdana;
   margin: 0;
+  background-color: cornsilk;
 }
 #wordle{
   color: blue;
