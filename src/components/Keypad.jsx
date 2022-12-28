@@ -6,10 +6,11 @@ export default function Keypad({usedKeys}) {
     useEffect(() =>{
         fetch('http://localhost:3001/letters')
         .then(response => response.json())
-        .then(data =>{
+        .then(data => {
             setLetters(data)
         })
     },[])
+    
   return (
     <div className='keypad'>
      {letters && letters.map( l => {

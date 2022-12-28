@@ -54,8 +54,9 @@ return prevTurn + 1
 })
 setUsedKeys((prevUsedKeys) =>{
     let newKeys = {...prevUsedKeys}
+
     formattedGuess.forEach((l) => {
-        const currentColor = newKeys[l.key]
+     const currentColor = newKeys[l.key]
 
         if(l.color === 'green'){
             newKeys[l.key] = 'green'
@@ -70,6 +71,7 @@ setUsedKeys((prevUsedKeys) =>{
             return
          }
     })
+    return newKeys
 })
 setCurrentGuess('')
 }
