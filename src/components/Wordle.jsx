@@ -14,7 +14,7 @@ export default function Wordle({solution}) {
           console.log('you win!')
           window.removeEventListener('keyup',handleKeyup )
         }
-        if(turn > 6){
+        if(turn > 5){
           console.log('out of guesses')
           window.removeEventListener('keyup',handleKeyup )
         }
