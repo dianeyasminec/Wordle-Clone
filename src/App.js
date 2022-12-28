@@ -25,7 +25,8 @@ const [solution, setSolution] = useState(null)
 
   return (
     <div className="App">
-     <h1>Wordle</h1>
+     <h1 id="wordle">Wordle</h1>
+     <p>Guess the Wordle in 6 tries. Each guess must be a valid 5-letter word. The color of the tiles will change to show how close your guess was to the word.</p>
      {solution && <Wordle solution={solution}/>}
     </div>
   );
