@@ -13,11 +13,11 @@ export default function Wordle({solution}) {
 
         if(isCorrect){
           setTimeout(() => setShowModal(true),2000)
-          
+
           window.removeEventListener('keyup',handleKeyup )
         }
         if(turn > 5){
-          console.log('out of guesses')
+          setTimeout(() => setShowModal(true),2000)
           window.removeEventListener('keyup',handleKeyup )
         }
 
